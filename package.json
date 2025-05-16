@@ -1,0 +1,31 @@
+{
+    "name": "test-pyodide-sandbox",
+    "version": "0.0.5",
+    "description": "CLI for running sandboxed Python code using Pyodide",
+    "main": "index.cjs",
+    "bin": {
+      "test-pyodide-sandbox": "index.cjs"
+    },
+    "files": [
+      "index.cjs",
+      "prepareEnv.js",
+      "README.md"
+    ],
+    "keywords": [
+      "python",
+      "pyodide",
+      "sandbox"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "commander": "^13.1.0",
+      "pyodide": "^0.27.4",
+      "test-pyodide-sandbox": "^0.0.4"
+    },
+    "devDependencies": {
+      "@types/node": "^22.14.0",
+      "typescript": "^5.8.3"
+    }
+  }
+  
