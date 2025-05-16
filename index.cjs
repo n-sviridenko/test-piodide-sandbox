@@ -1,5 +1,5 @@
 const { program } = require('npm:commander@^13.1.0');
-const { loadPyodide } = require('npm:pyodide@^0.27.4');
+const { loadPyodide } = require('npm:pyodide@^0.28.0-alpha.2');
 const fs = require('./fs');
 const path = require('./path');
 

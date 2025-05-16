@@ -1,4 +1,4 @@
-import { loadPyodide } from "npm:pyodide@^0.27.4";
+import { loadPyodide } from "npm:pyodide@^0.28.0-alpha.2";
 import { join } from "jsr:@std/path@^1.0.8";
 import { parseArgs } from "jsr:/@std/cli@^1.0.16/parse-args";
 
